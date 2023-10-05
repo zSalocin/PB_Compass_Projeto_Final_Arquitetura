@@ -1,162 +1,210 @@
-[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/zSalocin/WordPress_With_Docker_AWS/blob/main/README.md)   [![pt-br](https://img.shields.io/badge/lang-pt--br-green.svg)](https://github.com/zSalocin/WordPress_With_Docker_AWS/blob/main/README_PT-BR.md)
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/zSalocin/PB_Compass_Projeto_Final_Arquitetura/blob/main/README.md)   [![pt-br](https://img.shields.io/badge/lang-pt--br-green.svg)](https://github.com/zSalocin/PB_Compass_Projeto_Final_Arquitetura/blob/main/README_PT-BR.md)
 
+# Cloud: Final Project - PB
+AWS - Cloud Practitioner - PB Aws - IF Fluminense - IFMT - UTFPR - UNAMA  | Scholarship Program - DevSecOps
 
-# :cloud: Projeto-final-do-PB
-AWS - Cloud Pratictioner - PB Aws - IF Fluminense - IFMT - UTFPR - UNAMA  | Programa de Bolsas - DevSecOps
-
-#### Membros da Equipe:
+#### Team Members:
 - Bruno Garcia Nazareth
 - Nicolas Meirelles Grisostolo
 - Raphael Antunes Marinho de Souza
 
-### Caso:
-A "Fast Engineering S/A" está em busca de uma solução por parte da empresa terceira "TI SOLUÇÕES INCRÍVEIS". O eCommerce da Fast Engineering está experimentando um crescimento significativo e a solução atual não está mais conseguindo lidar com a alta demanda de acessos e compras que está enfrentando. Desde o início do ano, os acessos e as compras têm apresentado um aumento de 20% a cada mês.
+### Case:
+"Fast Engineering S/A" is seeking a solution from the third-party company "AMAZING IT SOLUTIONS". Fast Engineering's eCommerce is experiencing significant growth, and the current solution is no longer able to handle the high demand for access and purchases it is facing. Since the beginning of the year, accesses and purchases have been increasing by 20% every month.
 
-**Arquitetura Atual**
-* 01 servidor para Banco de Dados Mysql;
-* 01 servidor para a aplicação utilizando REACT;
-* 01 servidor de web Server e que armazena estáticos como fotos e links.
+**Current Architecture**
+* 01 server for MySQL Database;
+* 01 server for the application using REACT;
+* 01 web server that stores static assets such as photos and links.
 
-**Requerimentos do Pedido**
-- ESCOPO;
-- ARQUITETURA DA NOVA SOLUÇÃO;
-- VALORES;
-- PRAZO DE ENTREGA;
-- CRONOGRAMA MACRO DE ENTREGAS;
+**Order Requirements**
+- SCOPE;
+- ARCHITECTURE OF THE NEW SOLUTION;
+- COSTS;
+- DELIVERY DEADLINE;
+- MACRO SCHEDULE OF DELIVERIES;
 
-Sobre a construção da arquitetura para o futuro website da nossa empresa, é necessario seguir as melhores práticas DevOps.
+For the construction of the architecture for our company's future website, it is necessary to follow the best DevOps practices.
 
-**Requesitos da Nova Arquitetura**
-- Ambiente Kubernetes;
-- Banco de dados PaaS;
+**New Architecture Requirements**
+- Kubernetes Environment;
+- PaaS Database;
 - MultiAZ;
-- Segurança de backup de dados;
-- Persistência dos dados;
-- Balanceamento de carga com healthcheck;
-- Segurança (liberar somente o necessário/mínimo acesso possível).
-  
-Objetivo: Monte a proposta e a arquitetura do que a equipe propõe entregar.
+- Data backup security;
+- Data persistence;
+- Load balancing with health check;
+- Security (grant only necessary/minimum access).
+
+Objective: Develop the proposal and architecture of what the team proposes to deliver.
 
 ___
 
-## Projeto de Migração para a AWS - Fast Engineering S/A
+## AWS Migration Project - Fast Engineering S/A
 
-## Introdução
+## Introduction
 
-Este repositório contém a documentação e o escopo do projeto de migração para a AWS de um e-commerce. O projeto tem como objetivo aumentar a escalabilidade e reduzir custos operacionais.
+This repository contains the documentation and scope of the AWS migration project for an e-commerce platform. The project aims to increase scalability and reduce operational costs.
 
-## Motivação do Cliente
+## Client's Motivation
 
-A motivação por trás desta migração é a necessidade de atender à crescente demanda de acessos e compras que a Fast Engineering S/A está enfrentando.
+The motivation behind this migration is the need to meet the growing demand for access and purchases that Fast Engineering S/A is facing.
 
-## Escopo do Projeto
+## Project Scope
 
-### Avaliação da Infraestrutura Atual.
+### Assessment of Current Infrastructure.
 
- <div align="center">
-  <img src="https://github.com/RaphaelAntunesMarinhoDeSouza/Images/blob/main/Projeto%20Final/Atual.png" width="400px">
-   <p><em>Arquitetura Atual</em></p>
-</div>
+![Current_Architecture]("https://github.com/zSalocin/PB_Compass_Projeto_Final_Arquitetura/blob/main/Assets/Arquitetura_Atual.png")
 
-### 2. ![Emoji-AWS](https://github.com/RaphaelAntunesMarinhoDeSouza/Images/blob/main/Projeto%20Final/awslogo.png) Arquitetura da Solução Proposta:
+### Proposed Solution Architecture:
 
-A arquitetura proposta segue as melhores práticas e está de acordo com os pilares da AWS Well-Architected Framework.
-    
-  **2.1. ![Emoji-pilar](https://github.com/RaphaelAntunesMarinhoDeSouza/Images/blob/main/Projeto%20Final/new.png) Pilares da AWS Well-Architected Framework**
+The proposed architecture follows best practices and aligns with the AWS Well-Architected Framework.
+
+  **AWS Well-Architected Framework Pillars**
       
-  <div align="center">
-    <img src="https://github.com/RaphaelAntunesMarinhoDeSouza/Images/blob/main/Projeto%20Final/5697.1673071669.svg" width="450px">
-  </div>
+![Current_Architecture]("https://github.com/zSalocin/PB_Compass_Projeto_Final_Arquitetura/blob/main/Assets/Pilares.png")
   
-  **2.2. Migração de Dados:**
+  **Data Migration**
   
- A equipe está implementando uma migração de banco de dados crucial para o AWS RDS, adotando uma abordagem que prioriza a eficiência e a continuidade operacional. O AWS Database Migration Service (DMS) será utilizado para assegurar uma transição suave, replicando os dados de forma contínua e mantendo sua integridade. Essa estratégia tem como objetivo minimizar qualquer impacto nas operações diárias, ao mesmo tempo em que se aproveita os benefícios da escalabilidade e segurança oferecidos pela AWS. A equipe está comprometida em garantir que essa migração se concretize como uma transição tranquila e bem-sucedida.
-  
-  **2.3. Serviços Utilizados**
+ The team is implementing a crucial database migration to AWS RDS, prioritizing efficiency and operational continuity. The AWS Database Migration Service (DMS) will be used to ensure a smooth transition, replicating data continuously while maintaining its integrity. This strategy aims to minimize any impact on daily operations while leveraging the scalability and security benefits offered by AWS. The team is committed to ensuring that this migration is a smooth and successful transition.
+
+  **Services Used**
   
 - **Amazon CloudFront**
-  O Amazon CloudFront é um serviço de Content Delivery Network (CDN) oferecido pela Amazon Web Services (AWS). Sua principal função é acelerar a entrega de conteúdo estático e dinâmico, como páginas web, imagens, vídeos, scripts e outros arquivos multimídia, aos usuários finais com baixa latência e alta disponibilidade.
+  Amazon CloudFront is a Content Delivery Network (CDN) service offered by Amazon Web Services (AWS). Its main function is to accelerate the delivery of static and dynamic content, such as web pages, images, videos, scripts, and other multimedia files, to end-users with low latency and high availability.
   
 - **AWS Web Application Firewall (WAF)**
-  - O AWS Web Application Firewall é um serviço de firewall projetado para proteger aplicações web contra ataques comuns, proporcionando proteção avançada contra ameaças, garantindo a segurança de aplicativos da web.
+  - AWS Web Application Firewall is a firewall service designed to protect web applications against common attacks, providing advanced protection against threats and ensuring the security of web applications.
 
 - **AWS Shield**
-  - O AWS Shield é um serviço de segurança que protege aplicativos e recursos da AWS contra ataques DDoS (Distributed Denial of Service), fornecendo defesa contra ataques DDoS de alto nível para manter a disponibilidade dos recursos.
+  - AWS Shield is a security service that protects AWS applications and resources against Distributed Denial of Service (DDoS) attacks, providing defense against high-level DDoS attacks to maintain resource availability.
 
 - **Amazon Route 53**
-  - O Amazon Route 53 é um serviço DNS que permite registrar e gerenciar domínios, com roteamento de tráfego para recursos AWS, como ELB e CloudFront. Facilita o roteamento de tráfego eficiente e garante alta disponibilidade, direcionando acessos para instâncias e serviços AWS.
+  - Amazon Route 53 is a DNS service that allows you to register and manage domains, with traffic routing to AWS resources such as ELB and CloudFront. It facilitates efficient traffic routing and ensures high availability by directing access to AWS instances and services.
 
 - **Amazon Simple Storage Service (S3)**
-  - O Amazon S3 utiliza Buckets para armazenar e distribuir conteúdo estático, incluindo imagens, vídeos e arquivos, integrando-se ao CloudFront para uma entrega eficiente. Oferece armazenamento seguro e escalável para imagens, vídeos e arquivos.
+  - Amazon S3 uses Buckets to store and distribute static content, including images, videos, and files, integrating with CloudFront for efficient delivery. It offers secure and scalable storage for images, videos, and files.
 
 - **Amazon EKS**
-  - O Elastic Kubernetes Service atua como a base da arquitetura, oferecendo orquestração de contêineres por meio do Kubernetes. Proporciona orquestração de contêineres escalável, permitindo a expansão dinâmica e alta disponibilidade da aplicação.
+  - Elastic Kubernetes Service acts as the foundation of the architecture, offering container orchestration through Kubernetes. It provides scalable container orchestration, allowing dynamic expansion and high availability of the application.
 
 - **Amazon Virtual Private Cloud (VPC)**
-  - O Virtual Private Cloud isola a infraestrutura na nuvem e fornece controle granular sobre a rede, criando uma rede privada virtual. Cria uma rede VPC, melhorando o controle de tráfego e a segurança da infraestrutura.
+  - Virtual Private Cloud isolates the cloud infrastructure and provides granular control over the network by creating a virtual private network. It establishes a VPC network, improving traffic control and infrastructure security.
 
 - **Amazon RDS** 
-  -O Amazon RDS (Relational Database Service) é um serviço de banco de dados relacional oferecido pela Amazon Web Services (AWS). Ele foi projetado para simplificar a administração, operação e escalabilidade de bancos de dados relacionais, permitindo que os desenvolvedores se concentrem em suas aplicações sem se preocupar com a gestão do banco de dados subjacente.
+  -Amazon RDS (Relational Database Service) is a relational database service offered by Amazon Web Services (AWS). It is designed to simplify the administration, operation, and scalability of relational databases, allowing developers to focus on their applications without worrying about managing the underlying database.
 
 - **Elastic Load Balancing**
-  - O Elastic Load Balancing é um serviço que distribui o tráfego entre várias instâncias ou recursos para garantir a alta disponibilidade e a escalabilidade de aplicativos.
+  - Elastic Load Balancing is a service that distributes traffic among multiple instances or resources to ensure high availability and scalability of applications.
 
 - **Amazon CloudWatch**
-  - O Amazon CloudWatch é um serviço de monitoramento e observação que fornece insights sobre o desempenho dos recursos e aplicativos AWS.
+  - Amazon CloudWatch is a monitoring and observation service that provides insights into the performance of AWS resources and applications.
 
 - **AWS Database Migration Service**
-  - O AWS Database Migration Service facilita a migração de bancos de dados para a AWS com segurança e facilidade.
+  - AWS Database Migration Service facilitates the migration of databases to AWS securely and easily.
 
 - **Amazon Cognito**
-  - O Amazon Cognito é um serviço de autenticação e autorização que permite que você adicione facilmente autenticação para aplicativos da web e móveis.
+  - Amazon Cognito is an authentication and authorization service that allows you to easily add authentication to web and mobile applications.
 
 - **AWS Lambda**
-  - O AWS Lambda é um serviço de computação serverless que permite que você execute código sem provisionar ou gerenciar servidores.
+  - AWS Lambda is a serverless computing service that allows you to run code without provisioning or managing servers.
 
 - **AWS CloudTrail**
-  - O AWS CloudTrail é um serviço que registra atividades na sua conta da AWS, permitindo auditoria e rastreamento de ações.
+  - AWS CloudTrail is a service that records activities in your AWS account, allowing for auditing and tracking of actions.
 
 - **AWS CodeBuild**
-  - O AWS CodeBuild é um serviço de compilação totalmente gerenciado que compila código fonte, executa testes e cria artefatos.
+  - AWS CodeBuild is a fully managed build service that compiles source code, runs tests, and creates artifacts.
 
 - **AWS CodePipeline**
-  - O AWS CodePipeline é um serviço de entrega contínua que automatiza a construção, teste e implantação de aplicativos.
+  - AWS CodePipeline is a continuous delivery service that automates the building, testing, and deployment of applications.
 
 - **AWS CodeDeploy**
-  - O AWS CodeDeploy é um serviço de implantação automatizada que facilita a implantação de aplicativos na AWS.
+  - AWS CodeDeploy is an automated deployment service that makes it easier to deploy applications on AWS.
 
 - **Amazon EC2**
-  - O Amazon EC2 fornece instâncias virtuais sob demanda com configuração personalizável para uma ampla variedade de cargas de trabalho. Escalabilidade sob demanda, permitindo a adaptação rápida às necessidades de computação, sem investimentos antecipados em hardware físico.
+  - Amazon EC2 provides on-demand virtual instances with customizable configurations for a wide range of workloads. It offers on-demand scalability, allowing for quick adaptation to computing needs without upfront investments in physical hardware.
 
 - **AWS Backup**
-  - O AWS Backup é um serviço de backup totalmente gerenciado que ajuda a simplificar a proteção de dados e a recuperação de recursos da AWS.
+  - AWS Backup is a fully managed backup service that helps simplify data protection and resource recovery in AWS.
 
 - **Cost Usage e Report**
-  - O serviço de Cost Usage e Report da AWS permite rastrear e analisar o uso e os custos dos recursos da AWS.
+  - AWS Cost Usage and Report service allows you to track and analyze the usage and costs of AWS resources.
 
 - **Cost Explorer**
-  - O Cost Explorer é uma ferramenta de análise de custos que ajuda a visualizar e entender seus gastos na AWS.
+  - Cost Explorer is a cost analysis tool that helps visualize and understand your spending on AWS.
 
 - **CloudFormation**
-  - O AWS CloudFormation é um serviço que permite criar e gerenciar recursos da AWS por meio de modelos de infraestrutura como código.
+  - AWS CloudFormation is a service that allows you to create and manage AWS resources through infrastructure-as-code templates.
  
-  **Nova Arquitetura**
+  **New Architecture**
   
-<div align="center">
-  <img src="https://github.com/RaphaelAntunesMarinhoDeSouza/Images/blob/main/Projeto%20Final/Untitled.jpg" width="900px">
-</div>
+![PROJECT_ARCHITECTURE]("https://github.com/zSalocin/PB_Compass_Projeto_Final_Arquitetura/blob/main/Assets/Arquitetura.jpeg")
 
-### 3. Valores
+### 3. Values
 
-**Calculadora AWS:** 
+**AWS Calculator** 
 
-Acesso a [caluladora de preços da AWS](https://calculator.aws/#/)
+Access the [AWS pricing calculator](https://calculator.aws/#/)
+
+[
+Amazon RDS
+
+Amazon RDS (Relational Database Service) is a relational database service offered by Amazon Web Services (AWS). It is designed to simplify the administration, operation, and scalability of relational databases, allowing developers to focus on their applications without worrying about managing the underlying database.
+Elastic Load Balancing
+
+Elastic Load Balancing is a service that distributes traffic among multiple instances or resources to ensure high availability and scalability of applications.
+Amazon CloudWatch
+
+Amazon CloudWatch is a monitoring and observation service that provides insights into the performance of AWS resources and applications.
+AWS Database Migration Service
+
+AWS Database Migration Service facilitates the migration of databases to AWS securely and easily.
+Amazon Cognito
+
+Amazon Cognito is an authentication and authorization service that allows you to easily add authentication to web and mobile applications.
+AWS Lambda
+
+AWS Lambda is a serverless computing service that allows you to run code without provisioning or managing servers.
+AWS CloudTrail
+
+AWS CloudTrail is a service that records activities in your AWS account, allowing for auditing and tracking of actions.
+AWS CodeBuild
+
+AWS CodeBuild is a fully managed build service that compiles source code, runs tests, and creates artifacts.
+AWS CodePipeline
+
+AWS CodePipeline is a continuous delivery service that automates the building, testing, and deployment of applications.
+AWS CodeDeploy
+
+AWS CodeDeploy is an automated deployment service that makes it easier to deploy applications on AWS.
+Amazon EC2
+
+Amazon EC2 provides on-demand virtual instances with customizable configurations for a wide range of workloads. It offers on-demand scalability, allowing for quick adaptation to computing needs without upfront investments in physical hardware.
+AWS Backup
+
+AWS Backup is a fully managed backup service that helps simplify data protection and resource recovery in AWS.
+Cost Usage and Report
+
+AWS Cost Usage and Report service allows you to track and analyze the usage and costs of AWS resources.
+Cost Explorer
+
+Cost Explorer is a cost analysis tool that helps visualize and understand your spending on AWS.
+CloudFormation
+
+AWS CloudFormation is a service that allows you to create and manage AWS resources through infrastructure-as-code templates.
+New Architecture
+
+PROJECT_ARCHITECTURE
+
+### Values
+AWS Calculator:
+
+Access the AWS pricing calculator
+
+[New Architecture Estimate](https://calculator.aws/#/estimate?id=f0691a4bdf6209114ce6b6391e274d6b089bec07)
+
+![Estimativa]("https://github.com/zSalocin/PB_Compass_Projeto_Final_Arquitetura/blob/main/Assets/Estimativa.png")
+
+### Delivery Deadline
 
 
-
-### 4. Prazo de Entrega:
-
-
-
-### 5. Cronograma Macro de Entregas:
+### Macro Schedule of Deliveries
 
