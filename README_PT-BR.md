@@ -148,6 +148,14 @@ Acesso a [caluladora de preços da AWS](https://calculator.aws/#/)
 
 ![Estimativa](https://github.com/zSalocin/PB_Compass_Projeto_Final_Arquitetura/blob/main/Assets/Estimativa.png)
 
+**Custos**
+
+|             Item                   |                     Descrição                      |       Preço      |
+|------------------------------------|----------------------------------------------------|----------------  |
+| Migração Para a AWS                | Migração de dados on-premise para a AWS            | $496,40          |
+| Infraestrutura da AWS              | Custo da Infraestrutura de serviços da AWS         | $5.373,72/Mensal |
+| Custo da Equipe                    | Suporte e manutenção técnica                       | $3.457,76/Mensal |
+
 ### Prazo de Entrega
 
 

@@ -4,9 +4,9 @@
 AWS - Cloud Practitioner - PB Aws - IF Fluminense - IFMT - UTFPR - UNAMA  | Scholarship Program - DevSecOps
 
 #### Team Members:
-- Bruno Garcia Nazareth
-- Nicolas Meirelles Grisostolo
-- Raphael Antunes Marinho de Souza
+- [Bruno Garcia Nazareth](https://github.com/brunoshure)
+- [Nicolas Meirelles Grisostolo](https://github.com/zSalocin)
+- [Raphael Antunes Marinho de Souza](https://github.com/RaphaelAntunesMarinhoDeSouza)
 
 ### Case:
 "Fast Engineering S/A" is seeking a solution from the third-party company "AMAZING IT SOLUTIONS". Fast Engineering's eCommerce is experiencing significant growth, and the current solution is no longer able to handle the high demand for access and purchases it is facing. Since the beginning of the year, accesses and purchases have been increasing by 20% every month.
@@ -146,6 +146,14 @@ Access the [AWS pricing calculator](https://calculator.aws/#/)
 [New Architecture Estimate](https://calculator.aws/#/estimate?id=f0691a4bdf6209114ce6b6391e274d6b089bec07)
 
 ![Estimativa](https://github.com/zSalocin/PB_Compass_Projeto_Final_Arquitetura/blob/main/Assets/Estimativa.png)
+
+**Costs**
+
+|        Item           |                 Description                |       Price       |
+|-----------------------|--------------------------------------------|-------------------|
+| Migration to AWS      | On-premise data migration to AWS           | $496,40           |
+| AWS Infrastructure    | Cost of AWS services infrastructure        | $5.373,72/monthly |
+| Team Cost             | Technical support and maintenance          | $3.457,76/monthly |
 
 ### Delivery Deadline
 
