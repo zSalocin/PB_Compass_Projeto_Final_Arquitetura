@@ -4,9 +4,9 @@
 AWS - Cloud Pratictioner - PB Aws - IF Fluminense - IFMT - UTFPR - UNAMA  | Programa de Bolsas - DevSecOps
 
 #### Membros da Equipe:
-- Bruno Garcia Nazareth
-- Nicolas Meirelles Grisostolo
-- Raphael Antunes Marinho de Souza
+- [Bruno Garcia Nazareth](https://github.com/brunoshure)
+- [Nicolas Meirelles Grisostolo](https://github.com/zSalocin)
+- [Raphael Antunes Marinho de Souza](https://github.com/RaphaelAntunesMarinhoDeSouza)
 
 ### Caso:
 A "Fast Engineering S/A" está em busca de uma solução por parte da empresa terceira "TI SOLUÇÕES INCRÍVEIS". O eCommerce da Fast Engineering está experimentando um crescimento significativo e a solução atual não está mais conseguindo lidar com a alta demanda de acessos e compras que está enfrentando. Desde o início do ano, os acessos e as compras têm apresentado um aumento de 20% a cada mês.
@@ -17,21 +17,21 @@ A "Fast Engineering S/A" está em busca de uma solução por parte da empresa te
 * 01 servidor de web Server e que armazena estáticos como fotos e links.
 
 **Requerimentos do Pedido**
-- ESCOPO;
-- ARQUITETURA DA NOVA SOLUÇÃO;
-- VALORES;
-- PRAZO DE ENTREGA;
-- CRONOGRAMA MACRO DE ENTREGAS;
+- Escopo.
+- Arquitetura da Nova Solução.
+- Valores.
+- Prazo de Entrega.
+- Cronograma Macro de Entregas.
 
 Sobre a construção da arquitetura para o futuro website da nossa empresa, é necessario seguir as melhores práticas DevOps.
 
 **Requesitos da Nova Arquitetura**
-- Ambiente Kubernetes;
-- Banco de dados PaaS;
-- MultiAZ;
-- Segurança de backup de dados;
-- Persistência dos dados;
-- Balanceamento de carga com healthcheck;
+- Ambiente Kubernetes.
+- Banco de dados PaaS.
+- MultiAZ.
+- Segurança de backup de dados.
+- Persistência dos dados.
+- Balanceamento de carga com healthcheck.
 - Segurança (liberar somente o necessário/mínimo acesso possível).
   
 Objetivo: Monte a proposta e a arquitetura do que a equipe propõe entregar.
@@ -52,7 +52,7 @@ A motivação por trás desta migração é a necessidade de atender à crescent
 
 ### Avaliação da Infraestrutura Atual.
 
-![Arquitetura_Atual]("https://github.com/zSalocin/PB_Compass_Projeto_Final_Arquitetura/blob/main/Assets/Arquitetura_Atual.png")
+![Arquitetura_Atual](https://github.com/zSalocin/PB_Compass_Projeto_Final_Arquitetura/blob/main/Assets/Arquitetura_Atual.png)
 
 ### Arquitetura da Solução Proposta:
 
@@ -60,7 +60,7 @@ A arquitetura proposta segue as melhores práticas e está de acordo com os pila
     
   **Pilares da AWS Well-Architected Framework**
       
-![Arquitetura_Atual]("https://github.com/zSalocin/PB_Compass_Projeto_Final_Arquitetura/blob/main/Assets/Pilares.png")
+![Arquitetura_Atual](https://github.com/zSalocin/PB_Compass_Projeto_Final_Arquitetura/blob/main/Assets/Pilares.png)
   
   **Migração de Dados**
   
@@ -136,7 +136,7 @@ A arquitetura proposta segue as melhores práticas e está de acordo com os pila
  
   **Nova Arquitetura**
   
-![PROJECT_ARCHITECTURE]("https://github.com/zSalocin/PB_Compass_Projeto_Final_Arquitetura/blob/main/Assets/Arquitetura.jpeg")
+![PROJECT_ARCHITECTURE](https://github.com/zSalocin/PB_Compass_Projeto_Final_Arquitetura/blob/main/Assets/Arquitetura.jpeg)
 
 ### Valores
 
@@ -146,7 +146,7 @@ Acesso a [caluladora de preços da AWS](https://calculator.aws/#/)
 
 [Estimativa da Nova Arquitetura](https://calculator.aws/#/estimate?id=f0691a4bdf6209114ce6b6391e274d6b089bec07)
 
-![Estimativa]("https://github.com/zSalocin/PB_Compass_Projeto_Final_Arquitetura/blob/main/Assets/Estimativa.png")
+![Estimativa](https://github.com/zSalocin/PB_Compass_Projeto_Final_Arquitetura/blob/main/Assets/Estimativa.png)
 
 ### Prazo de Entrega
 

@@ -17,21 +17,21 @@ AWS - Cloud Practitioner - PB Aws - IF Fluminense - IFMT - UTFPR - UNAMA  | Scho
 * 01 web server that stores static assets such as photos and links.
 
 **Order Requirements**
-- SCOPE;
-- ARCHITECTURE OF THE NEW SOLUTION;
-- COSTS;
-- DELIVERY DEADLINE;
-- MACRO SCHEDULE OF DELIVERIES;
+- Scope.
+- Architecture of the New Solution.
+- Costs.
+- Delivery Deadline.
+- Macro Shedule of Deliveries.
 
 For the construction of the architecture for our company's future website, it is necessary to follow the best DevOps practices.
 
 **New Architecture Requirements**
-- Kubernetes Environment;
-- PaaS Database;
-- MultiAZ;
-- Data backup security;
-- Data persistence;
-- Load balancing with health check;
+- Kubernetes Environment.
+- PaaS Database.
+- MultiAZ.
+- Data backup security.
+- Data persistence.
+- Load balancing with health check.
 - Security (grant only necessary/minimum access).
 
 Objective: Develop the proposal and architecture of what the team proposes to deliver.
@@ -52,7 +52,7 @@ The motivation behind this migration is the need to meet the growing demand for 
 
 ### Assessment of Current Infrastructure.
 
-![Current_Architecture]("https://github.com/zSalocin/PB_Compass_Projeto_Final_Arquitetura/blob/main/Assets/Arquitetura_Atual.png")
+![Current_Architecture](https://github.com/zSalocin/PB_Compass_Projeto_Final_Arquitetura/blob/main/Assets/Arquitetura_Atual.png)
 
 ### Proposed Solution Architecture:
 
@@ -60,7 +60,7 @@ The proposed architecture follows best practices and aligns with the AWS Well-Ar
 
   **AWS Well-Architected Framework Pillars**
       
-![Current_Architecture]("https://github.com/zSalocin/PB_Compass_Projeto_Final_Arquitetura/blob/main/Assets/Pilares.png")
+![Current_Architecture](https://github.com/zSalocin/PB_Compass_Projeto_Final_Arquitetura/blob/main/Assets/Pilares.png)
   
   **Data Migration**
   
@@ -136,72 +136,16 @@ The proposed architecture follows best practices and aligns with the AWS Well-Ar
  
   **New Architecture**
   
-![PROJECT_ARCHITECTURE]("https://github.com/zSalocin/PB_Compass_Projeto_Final_Arquitetura/blob/main/Assets/Arquitetura.jpeg")
-
-### 3. Values
-
-**AWS Calculator** 
-
-Access the [AWS pricing calculator](https://calculator.aws/#/)
-
-[
-Amazon RDS
-
-Amazon RDS (Relational Database Service) is a relational database service offered by Amazon Web Services (AWS). It is designed to simplify the administration, operation, and scalability of relational databases, allowing developers to focus on their applications without worrying about managing the underlying database.
-Elastic Load Balancing
-
-Elastic Load Balancing is a service that distributes traffic among multiple instances or resources to ensure high availability and scalability of applications.
-Amazon CloudWatch
-
-Amazon CloudWatch is a monitoring and observation service that provides insights into the performance of AWS resources and applications.
-AWS Database Migration Service
-
-AWS Database Migration Service facilitates the migration of databases to AWS securely and easily.
-Amazon Cognito
-
-Amazon Cognito is an authentication and authorization service that allows you to easily add authentication to web and mobile applications.
-AWS Lambda
-
-AWS Lambda is a serverless computing service that allows you to run code without provisioning or managing servers.
-AWS CloudTrail
-
-AWS CloudTrail is a service that records activities in your AWS account, allowing for auditing and tracking of actions.
-AWS CodeBuild
-
-AWS CodeBuild is a fully managed build service that compiles source code, runs tests, and creates artifacts.
-AWS CodePipeline
-
-AWS CodePipeline is a continuous delivery service that automates the building, testing, and deployment of applications.
-AWS CodeDeploy
-
-AWS CodeDeploy is an automated deployment service that makes it easier to deploy applications on AWS.
-Amazon EC2
-
-Amazon EC2 provides on-demand virtual instances with customizable configurations for a wide range of workloads. It offers on-demand scalability, allowing for quick adaptation to computing needs without upfront investments in physical hardware.
-AWS Backup
-
-AWS Backup is a fully managed backup service that helps simplify data protection and resource recovery in AWS.
-Cost Usage and Report
-
-AWS Cost Usage and Report service allows you to track and analyze the usage and costs of AWS resources.
-Cost Explorer
-
-Cost Explorer is a cost analysis tool that helps visualize and understand your spending on AWS.
-CloudFormation
-
-AWS CloudFormation is a service that allows you to create and manage AWS resources through infrastructure-as-code templates.
-New Architecture
-
-PROJECT_ARCHITECTURE
+![PROJECT_ARCHITECTURE](https://github.com/zSalocin/PB_Compass_Projeto_Final_Arquitetura/blob/main/Assets/Arquitetura.jpeg)
 
 ### Values
 AWS Calculator:
 
-Access the AWS pricing calculator
+Access the [AWS pricing calculator](https://calculator.aws/#/)
 
 [New Architecture Estimate](https://calculator.aws/#/estimate?id=f0691a4bdf6209114ce6b6391e274d6b089bec07)
 
-![Estimativa]("https://github.com/zSalocin/PB_Compass_Projeto_Final_Arquitetura/blob/main/Assets/Estimativa.png")
+![Estimativa](https://github.com/zSalocin/PB_Compass_Projeto_Final_Arquitetura/blob/main/Assets/Estimativa.png)
 
 ### Delivery Deadline
 
