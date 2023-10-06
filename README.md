@@ -157,6 +157,13 @@ Access the [AWS pricing calculator](https://calculator.aws/#/)
 
 ### Delivery Deadline
 
++ Architecture implementation: **22 business days**.
+
+Team of 3 people:
+  - Working 8 hours a day
+  - Over the course of 22 business days
+  - Total of 528 hours for delivery.
 
 ### Macro Schedule of Deliveries
 
+![Cronograma](https://github.com/zSalocin/PB_Compass_Projeto_Final_Arquitetura/blob/main/Assets/Cronograma.png)

@@ -158,6 +158,13 @@ Acesso a [caluladora de preços da AWS](https://calculator.aws/#/)
 
 ### Prazo de Entrega
 
++ Implementação da arquitetura: **22 dias úteis**.
+
+Equipe de 3 pessoas:
+  - Trabalhando 8 horas por dia
+  - Ao longo de 22 dias úteis
+  - Total de 528 horas para a entrega
 
 ### Cronograma Macro de Entregas
 
+![Cronograma](https://github.com/zSalocin/PB_Compass_Projeto_Final_Arquitetura/blob/main/Assets/Cronograma.png)
