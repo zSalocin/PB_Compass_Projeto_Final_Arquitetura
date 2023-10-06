@@ -136,7 +136,7 @@ A arquitetura proposta segue as melhores práticas e está de acordo com os pila
  
   **Nova Arquitetura**
   
-![PROJECT_ARCHITECTURE](https://github.com/zSalocin/PB_Compass_Projeto_Final_Arquitetura/blob/main/Assets/Arquitetura.jpeg)
+![PROJECT_ARCHITECTURE](https://github.com/zSalocin/PB_Compass_Projeto_Final_Arquitetura/blob/main/Assets/Arquitetura.png)
 
 ### Valores
 
@@ -158,12 +158,12 @@ Acesso a [caluladora de preços da AWS](https://calculator.aws/#/)
 
 ### Prazo de Entrega
 
-+ Implementação da arquitetura: **22 dias úteis**.
++ Implementação da arquitetura: **28 dias úteis**.
 
 Equipe de 3 pessoas:
   - Trabalhando 8 horas por dia
-  - Ao longo de 22 dias úteis
-  - Total de 528 horas para a entrega
+  - Ao longo de 28 dias úteis
+  - Total de 672 horas para a entrega
 
 ### Cronograma Macro de Entregas
 

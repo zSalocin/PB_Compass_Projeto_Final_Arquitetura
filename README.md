@@ -136,7 +136,7 @@ The proposed architecture follows best practices and aligns with the AWS Well-Ar
  
   **New Architecture**
   
-![PROJECT_ARCHITECTURE](https://github.com/zSalocin/PB_Compass_Projeto_Final_Arquitetura/blob/main/Assets/Arquitetura.jpeg)
+![PROJECT_ARCHITECTURE](https://github.com/zSalocin/PB_Compass_Projeto_Final_Arquitetura/blob/main/Assets/Arquitetura.png)
 
 ### Values
 AWS Calculator:
@@ -157,12 +157,12 @@ Access the [AWS pricing calculator](https://calculator.aws/#/)
 
 ### Delivery Deadline
 
-+ Architecture implementation: **22 business days**.
++ Architecture implementation: **28 business days**.
 
 Team of 3 people:
   - Working 8 hours a day
-  - Over the course of 22 business days
-  - Total of 528 hours for delivery.
+  - Over the course of 28 business days
+  - Total of 672 hours for delivery.
 
 ### Macro Schedule of Deliveries
 
