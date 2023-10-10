@@ -131,8 +131,6 @@ Acesso a [caluladora de preços da AWS](https://calculator.aws/#/)
 
 [Estimativa da Nova Arquitetura](https://calculator.aws/#/estimate?id=f0691a4bdf6209114ce6b6391e274d6b089bec07)
 
-![Estimativa](https://github.com/zSalocin/PB_Compass_Projeto_Final_Arquitetura/blob/main/Assets/Estimativa.png)
-
 **Custos**
 
 |             Item                   |                     Descrição                      |       Preço      |
