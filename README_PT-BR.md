@@ -101,15 +101,6 @@ A arquitetura proposta segue as melhores práticas e está de acordo com os pila
 - **AWS Database Migration Service**
   - O AWS Database Migration Service facilita a migração de bancos de dados para a AWS com segurança e facilidade.
 
-- **Amazon Cognito**
-  - O Amazon Cognito é um serviço de autenticação e autorização que permite que você adicione facilmente autenticação para aplicativos da web e móveis.
-
-- **AWS Lambda**
-  - O AWS Lambda é um serviço de computação serverless que permite que você execute código sem provisionar ou gerenciar servidores.
-
-- **AWS CloudTrail**
-  - O AWS CloudTrail é um serviço que registra atividades na sua conta da AWS, permitindo auditoria e rastreamento de ações.
-
 - **AWS CodeBuild**
   - O AWS CodeBuild é um serviço de compilação totalmente gerenciado que compila código fonte, executa testes e cria artefatos.
 
@@ -125,18 +116,12 @@ A arquitetura proposta segue as melhores práticas e está de acordo com os pila
 - **AWS Backup**
   - O AWS Backup é um serviço de backup totalmente gerenciado que ajuda a simplificar a proteção de dados e a recuperação de recursos da AWS.
 
-- **Cost Usage e Report**
-  - O serviço de Cost Usage e Report da AWS permite rastrear e analisar o uso e os custos dos recursos da AWS.
-
-- **Cost Explorer**
-  - O Cost Explorer é uma ferramenta de análise de custos que ajuda a visualizar e entender seus gastos na AWS.
-
 - **CloudFormation**
   - O AWS CloudFormation é um serviço que permite criar e gerenciar recursos da AWS por meio de modelos de infraestrutura como código.
  
   **Nova Arquitetura**
   
-![PROJECT_ARCHITECTURE](https://github.com/zSalocin/PB_Compass_Projeto_Final_Arquitetura/blob/main/Assets/Arquitetura.png)
+![PROJECT_ARCHITECTURE](https://github.com/zSalocin/PB_Compass_Projeto_Final_Arquitetura/blob/main/Assets/Arquitetura.jpeg)
 
 ### Valores
 
@@ -153,7 +138,7 @@ Acesso a [caluladora de preços da AWS](https://calculator.aws/#/)
 |             Item                   |                     Descrição                      |       Preço      |
 |------------------------------------|----------------------------------------------------|----------------  |
 | Migração Para a AWS                | Migração de dados on-premise para a AWS            | $496,40          |
-| Infraestrutura da AWS              | Custo da Infraestrutura de serviços da AWS         | $5.373,72/Mensal |
+| Infraestrutura da AWS              | Custo da Infraestrutura de serviços da AWS         | $4.859,38/Mensal |
 | Custo da Equipe                    | Suporte e manutenção técnica                       | $3.457,76/Mensal |
 
 ### Prazo de Entrega
@@ -167,4 +152,4 @@ Equipe de 3 pessoas:
 
 ### Cronograma Macro de Entregas
 
-![Cronograma](https://github.com/zSalocin/PB_Compass_Projeto_Final_Arquitetura/blob/main/Assets/Cronograma.png)
+![Cronograma](https://github.com/zSalocin/PB_Compass_Projeto_Final_Arquitetura/blob/main/Assets/Cronograma.jpeg)
